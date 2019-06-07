@@ -1,6 +1,14 @@
 # VSCode ipch cleaner
 
-Little bash script for delete temporary IntelliSense VSCode ipch folders.
+Little bash script for delete temporary C/C++ IntelliSense VSCode __`ipch`__ folders.
+
+What is __`ipch`__ folders ?
+
+IPCH - IntelliSense Precompiled Header File
+-
+> Contains precompiled header information used by IntelliSense, Microsoft's code assistance module used for code hinting, documentation, and autocompletion while the programmer types source code.
+
+You can easily find this folder on `.vscode` folder in you project folder (also it's `${workspaceFolder}/.vscode`).
 
 Be sure this script have permission to run:
 ```bash
@@ -11,7 +19,7 @@ If you run it without arguments, it's will delete all __`ipch`__ folders from yo
 
 Exist flags:
 
-`-f` flag to only find all __`ipch`__ folder from your home directory(`~`) without delete.
+`-f` flag to only find all __`ipch`__ folder from your home directory(`~`) without deleting.
 ```bash
 $> ./vscode_ipch_cleaner.sh -f
 find: /Users/tmaluh/.DocumentRevisions-V100: Permission denied
