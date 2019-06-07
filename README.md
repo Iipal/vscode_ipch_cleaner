@@ -37,3 +37,10 @@ $> ./vscode_ipch_cleaner.sh -p ~/WU_Algorithm
 find: /Users/tmaluh/WU_Algorithm/.vscode/ipch: No such file or directory
 ```
 Last line "__find: ...: No such file or directory__" tell you about what all works fine and this folder successly deleted.
+
+Or you can set maximum cache size in Mb in VSCode settings:
+```json
+"C_Cpp.intelliSenseCacheSize": 1024
+```
+
+whatever...
