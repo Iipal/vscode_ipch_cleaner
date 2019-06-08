@@ -8,7 +8,7 @@ IPCH - IntelliSense Precompiled Header File
 -
 > Contains precompiled header information used by IntelliSense, Microsoft's code assistance module used for code hinting, documentation, and autocompletion while the programmer types source code.
 
-You can easily find this folder on `.vscode` folder in you project folder (also it's `${workspaceFolder}/.vscode`).
+You can easily find this folder in `.vscode` folder in you project folder (also it's `${workspaceFolder}/.vscode`).
 
 Be sure this script have permission to run:
 ```bash
@@ -28,7 +28,7 @@ find: /Users/tmaluh/.TemporaryItems: Permission denied
 /Users/tmaluh/WU_Algorithm/.vscode/ipch
 ```
 
-`-p` flag to choose from what folder delete will delete all __`ipch`__ folders.
+`-p` flag to choose from what folder will delete all __`ipch`__ folders.
 ```bash
 $> ./vscode_ipch_cleaner.sh -p ~/WU_Algorithm
 /Users/tmaluh/WU_Algorithm/.vscode/ipch/d2a838ba5f85bbb4/u_rand.ipch
