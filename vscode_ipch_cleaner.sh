@@ -27,4 +27,3 @@ elif [ "$1" == "-p" ]; then
 else
 	echo "Incorrect argument."
 fi
-exit
