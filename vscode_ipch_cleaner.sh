@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ -z "$1" ]]; then
+if [ -z "$1" ]; then
 	find ~ -name "ipch" -exec rm -rfv {} \;
 	exit
 fi
