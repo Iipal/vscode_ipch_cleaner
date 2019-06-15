@@ -21,11 +21,11 @@ chmod u+x vscode_ipch_cleaner.sh
 ## Flags:
 
 ###### If you run it without arguments, it's will delete all __`ipch`__ folders from your home directory(`~`).
-| Flag | Description                                                                  | Argmunets                                                                                                |
-| ---- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| -f   | Finds all __`ipch`__ folders from the specified directory. (default: `~`)    | Directory. (Optional)                                                                                    |
-| -p   | Deleting all __`ipch`__ folders from the specified directory. (default: `~`) | Directory. (Optional)                                                                                    |
-| -q   | Activate quiet mode. (No deleting info output)                               | 1: Directory. (Neccessary) 2: Path to file in which will be printed output from quiet mode. (Neccessary) |
+| Flag | Description                                                                  | Argmunets                                                                                              |
+| ---- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| -f   | Finds all __`ipch`__ folders from the specified directory. (default: `~`)    | Directory. (Optional)                                                                                  |
+| -p   | Deleting all __`ipch`__ folders from the specified directory. (default: `~`) | Directory. (Optional)                                                                                  |
+| -q   | Activate quiet mode. (No deleting info output)                               | 1: Directory. (Necessary) 2: Path to file in which will be printed output from quiet mode. (Nccessary) |
 
 > Last line in scripts output "__find: ...: No such file or directory__" tell you about what all works fine and this folder successly deleted.
 
